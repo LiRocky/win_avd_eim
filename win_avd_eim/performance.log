@@ -1,0 +1,11 @@
+[Department] run count:3 use time:3 millisecond
+[Message] run count:2 use time:0 millisecond
+[Session] run count:15 use time:12 millisecond
+[addItem] run count:23 use time:23 millisecond
+[getItem] run count:14 use time:23 millisecond
+[getItemset] run count:19 use time:37 millisecond
+[getRecentSessions] run count:2 use time:5 millisecond
+[getUpdated] run count:8 use time:3 millisecond
+[hasItem] run count:46 use time:37 millisecond
+[setItem] run count:4 use time:2 millisecond
+[updateItem] run count:1 use time:1 millisecond

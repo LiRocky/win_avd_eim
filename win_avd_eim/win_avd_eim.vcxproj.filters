@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{cf3b2912-d48d-4136-80fd-1857cd667c5f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{cb02c0cd-504f-47e1-9970-46c1f4b58195}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="widgets">
+      <UniqueIdentifier>{3be139bd-2ee8-4ffe-9231-6b478d98ff3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules">
+      <UniqueIdentifier>{3de1a4fa-c227-473b-af63-3a0ca6f83cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="widgets\sessionPage">
+      <UniqueIdentifier>{56ef1298-8307-48db-b048-322cdfaa0409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="widgets\deptPage">
+      <UniqueIdentifier>{a82e871c-ef2e-4fea-8c1c-6d5d74588d75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_win_avd_eim.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_login.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_chatItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_chatItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sessionLayout.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_messageItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_messageItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sessionLayout.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sessionHeader.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sessionHeader.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sessionContent.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sessionContent.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="login.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\sessionLayout.cpp">
+      <Filter>widgets\sessionPage</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\chatItem.cpp">
+      <Filter>widgets\sessionPage</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\messageItem.cpp">
+      <Filter>widgets\sessionPage</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\sessionContent.cpp">
+      <Filter>widgets\sessionPage</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\sessionHeader.cpp">
+      <Filter>widgets\sessionPage</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sessionBottom.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sessionBottom.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\sessionBottom.cpp">
+      <Filter>widgets\sessionPage</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_chatWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_chatWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\chatWidget.cpp">
+      <Filter>widgets\sessionPage</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\loginModule.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_loginModule.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="serializeUserData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\mainModule.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainModule.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\deptWdiget.cpp">
+      <Filter>widgets\deptPage</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\deptItem.cpp">
+      <Filter>widgets\deptPage</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_deptWdiget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_deptItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\deptInfoHeader.cpp">
+      <Filter>widgets\deptPage</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_deptInfoHeader.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\concreteDetpItem.cpp">
+      <Filter>widgets\deptPage</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\deptInfoLayout.cpp">
+      <Filter>widgets\deptPage</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_concreteDetpItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_deptInfoLayout.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_deptInfoLayout.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\deptModule.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_deptModule.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\userInfoWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_userInfoWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_userInfoWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="win_avd_eim.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="uipage\login.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="uipage\mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="widgets\sessionLayout.h">
+      <Filter>widgets\sessionPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="widgets\messageItem.h">
+      <Filter>widgets\sessionPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="widgets\sessionContent.h">
+      <Filter>widgets\sessionPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="widgets\sessionHeader.h">
+      <Filter>widgets\sessionPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="widgets\chatItem.h">
+      <Filter>widgets\sessionPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="login.h">
+      <Filter>widgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindow.h">
+      <Filter>widgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="widgets\sessionBottom.h">
+      <Filter>widgets\sessionPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="widgets\chatWidget.h">
+      <Filter>widgets\sessionPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="modules\loginModule.h">
+      <Filter>modules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="modules\mainModule.h">
+      <Filter>modules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="widgets\deptWdiget.h">
+      <Filter>widgets\deptPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="widgets\deptInfoLayout.h">
+      <Filter>widgets\deptPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="widgets\deptInfoHeader.h">
+      <Filter>widgets\deptPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="widgets\deptItem.h">
+      <Filter>widgets\deptPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="widgets\concreteDetpItem.h">
+      <Filter>widgets\deptPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="modules\deptModule.h">
+      <Filter>modules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="uipage\userInfoWnd.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="widgets\userInfoWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_login.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="serializeUserData.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_userInfoWnd.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
